@@ -1,6 +1,6 @@
 # _Memory Matching Game App_
 
-#### _A web application a memory-driven card game. {4/9/18}_
+#### _A web application for a memory-driven card game. {4/9/18}_
 
 #### By _**Andrew Lupton, Austin Roberts, Dennise Ortega, Jim McNamara, and Kristi Hwang**_
 
