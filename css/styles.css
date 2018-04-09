@@ -1,16 +1,25 @@
 table {
-  table-layout: fixed;
-  border: black 5px;
+border-collapse: separate;
+
 
 }
 table, tr {
   width: 100px;
   min-height: 800px;
-  border: black 10px;
+  border-style: solid;
+  border-color: black;
+  border-width: 5px;
+
+}
+table, td {
+  border-style: solid;
+  border-color: black;
+  border-width: 5px;
 
 }
 #form {
   width: 25%;
+  border: black 5px;
   text-align: left;
 }
 #button {
