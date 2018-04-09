@@ -6,10 +6,7 @@ border-collapse: separate;
 table, tr {
   width: 100px;
   min-height: 800px;
-  border-style: solid;
-  border-color: black;
-  border-width: 5px;
-
+  
 }
 table, td {
   border-style: solid;
