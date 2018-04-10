@@ -11,10 +11,10 @@
   <body>
     <div class="container">
       <h1>Matching Game</h1>
-      <form id="form" class="form-control" action="index.html" method="post">
-        <input id="nameInput" type="text" name="" value="" placeholder="Enter name:">
+      <form id="nameInput" class="form-control" method="post">
+        <input id="nameInput" type="text" placeholder="Enter name:">
         <br>
-        <button class="btn btn-info"type="submit" name="button">Submit</button>
+        <button id="submit" class="btn btn-info" type="submit">Submit</button>
       </form>
       <div class="tableDisplay">
         <table class="table">
@@ -75,6 +75,9 @@
           </tbody>
         </table>
 
+      </div>
+      <div class="nameDisplay">
+        <p>Player: <span id="nameDisplayId"></span></p>
       </div>
     </div>
 

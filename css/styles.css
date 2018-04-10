@@ -1,24 +1,40 @@
-table {
-border-collapse: separate;
+@font-face {
+    font-family: 'Mario';
+    src: url('fonts/SuperMario256.ttf');
+    src: local('fonts/SuperMario256.ttf'),
+         local('SuperMario256.ttf'),
+         url('SuperMario256.ttf') format('truetype'),
+}
+body {
+	background-color: #DBFCFF;
+}
+.headerMain {
+	text-align: center;
+	color: #CC4B09;
+	font-family: "Mario";
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
 
-
+#memory_board {
+	background:#5D94FB;
+	border:#999 3px solid;
+	width:800px;
+	height:540px;
+	padding:24px;
+	margin:0px auto;
 }
-table, tr {
-  width: 100px;
-  min-height: 800px;
-  
-}
-table, td {
-  border-style: solid;
-  border-color: black;
-  border-width: 5px;
-
-}
-#form {
-  width: 25%;
-  border: black 5px;
-  text-align: left;
-}
-#button {
-  margin-top: 5px;
+#memory_board > div {
+	background-image: url(img/mario.jpg);
+	background-repeat: no-repeat;
+  background-size: 100%;
+	border:#999 2px ridge;
+	width:100px;
+	height:100px;
+	float:left;
+	margin:10px;
+	padding:20px;
+	font-size:64px;
+	cursor:pointer;
+	text-align:center;
 }
