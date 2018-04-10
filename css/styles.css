@@ -16,7 +16,7 @@ body {
 	margin-bottom: 50px;
 }
 
-#memory_board{
+#memory_board {
 	background:#5D94FB;
 	border:#999 3px solid;
 	width:800px;
@@ -24,7 +24,7 @@ body {
 	padding:24px;
 	margin:0px auto;
 }
-#memory_board > div{
+#memory_board > div {
 	background-image: url(img/mario.jpg);
 	background-repeat: no-repeat;
   background-size: 100%;
