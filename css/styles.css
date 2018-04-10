@@ -4,14 +4,14 @@ border-collapse: separate;
 
 }
 table, tr {
-  width: 100px;
-  min-height: 800px;
-  
+  width: 190px;
+  min-height: 200px;
+
 }
 table, td {
   border-style: solid;
   border-color: black;
-  border-width: 5px;
+  border-width: 2px;
 
 }
 #form {
