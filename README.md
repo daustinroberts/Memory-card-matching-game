@@ -13,7 +13,7 @@ A program for a card game where the player attempts to match pairs of cards from
 - The player clicks two cards each turn.
 - If the player has chosen correctly, and the two cards are a pair, those cards are removed from the game board.
 - If, on the other hand the player chooses wrongly, the chosen cards are flipped back down on the board and the player loses a "life".
-- The player "wins" when all cards are removed from the goame board, and "loses" when they run out of lives. Either result is returned to the player in the form of an alert, to which is appended the player name.
+- The player "wins" when all cards are removed from the game board, and "loses" when they run out of lives. Either result is returned to the player in the form of an alert, to which is appended the player name.
 - A "reset" button is placed next to the game board, which the player can click at any time. Clicking this button refreshes the game back to the "start screen".
 
 
