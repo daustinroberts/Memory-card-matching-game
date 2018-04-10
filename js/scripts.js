@@ -49,12 +49,7 @@ var pair = [];
 function compareCards() {
 
   for(var i=0; i<=1; i++){
-    boxes.forEach(function(element) {
-      if (element) {
-        pair.push(element);
-      }
     pair.push("Y");
-    })
   }
   if (pair [0] == pair [1]){
     // alert("matched");
