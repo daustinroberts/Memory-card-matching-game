@@ -1,4 +1,4 @@
-table {
+/*table {
 border-collapse: separate;
 
 
@@ -6,7 +6,7 @@ border-collapse: separate;
 table, tr {
   width: 100px;
   min-height: 800px;
-  
+
 }
 table, td {
   border-style: solid;
@@ -18,7 +18,24 @@ table, td {
   width: 25%;
   border: black 5px;
   text-align: left;
+}*/
+div#gameBoard {
+	background:#CCC;
+	border:#999 1px solid;
+	width:800px;
+	height:540px;
+	padding:24px;
+	margin:0px auto;
 }
-#button {
-  margin-top: 5px;
+div#gameBoard > div {
+	/*background: url(tile_bg.jpg) no-repeat;*/
+	border:#000 1px solid;
+	width:71px;
+	height:71px;
+	float:left;
+	margin:10px;
+	padding:20px;
+	font-size:64px;
+	cursor:pointer;
+	text-align:center;
 }
