@@ -1,10 +1,12 @@
-@font-face {
+/*@font-face {
     font-family: 'Mario';
     src: url('fonts/SuperMario256.ttf');
     src: local('fonts/SuperMario256.ttf'),
          local('SuperMario256.ttf'),
          url('SuperMario256.ttf') format('truetype'),
 }
+
+
 body {
 	background-color: #DBFCFF;
 }
@@ -42,4 +44,20 @@ body {
 	font-size:64px;
 	cursor:pointer;
 	text-align:center;
+}*/
+
+
+.card {
+  height: 200px;
+  width: 150px;
+  float: left;
+  margin: 15px;
+  border: 5px;
+  border-radius: 5px;
+  background-color: #D3F6DB;
+
+}
+
+.card:hover {
+  cursor: pointer;
 }
