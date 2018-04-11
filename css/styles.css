@@ -5,7 +5,9 @@
          local('SuperMario256.ttf'),
          url('SuperMario256.ttf') format('truetype'),
 }
-body {
+
+
+/*body {
 	background-color: #DBFCFF;
 }
 
@@ -42,4 +44,26 @@ body {
 	font-size:64px;
 	cursor:pointer;
 	text-align:center;
+}*/
+
+h1 {
+  font-family: 'Mario';
+  margin: 5%;
+  text-align: center;
+  font-size: 65pt;
+  color: #E52929;
+}
+.card {
+  height: 200px;
+  width: 150px;
+  float: left;
+  margin: 15px;
+  border: 5px;
+  border-radius: 5px;
+  background-color: #D3F6DB;
+
+}
+
+.card:hover {
+  cursor: pointer;
 }
