@@ -1,4 +1,4 @@
-/*@font-face {
+@font-face {
     font-family: 'Mario';
     src: url('fonts/SuperMario256.ttf');
     src: local('fonts/SuperMario256.ttf'),
@@ -7,7 +7,7 @@
 }
 
 
-body {
+/*body {
 	background-color: #DBFCFF;
 }
 .headerMain {
@@ -41,7 +41,13 @@ body {
 	text-align:center;
 }*/
 
-
+h1 {
+  font-family: 'Mario';
+  margin: 5%;
+  text-align: center;
+  font-size: 65pt;
+  color: #E52929;
+}
 .card {
   height: 200px;
   width: 150px;
